@@ -9,7 +9,7 @@ import fragmentShader from '@/shaders/DemoPage/fragment.glsl'
 import cloud from '@/assets/textures/leva/cloud.png'
 import lavatile from '@/assets/textures/leva/lavatile.jpg'
 
-class DemoPage extends ThreeBox {
+export default class Ring extends ThreeBox {
   mesh: THREE.Mesh
   clock: THREE.Clock
   uniforms: any
@@ -76,5 +76,3 @@ class DemoPage extends ThreeBox {
     return <div id="canvas" className="canvas" />
   }
 }
-
-export default DemoPage

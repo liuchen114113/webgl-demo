@@ -1,20 +1,20 @@
 export default [
   {
     path: '/',
-    redirect: '/gl/demo-01'
+    redirect: '/gl/ring'
   },
   {
     path: '/gl',
     icon: 'idcard',
-    title: '示例1',
+    title: 'shader',
     children: [
       {
-        path: '/gl/demo-01',
-        title: 'demo-01'
+        path: '/gl/ring',
+        title: '指环'
       },
       {
-        path: '/gl/demo-02',
-        title: 'demo-02'
+        path: '/gl/ring1',
+        title: '指环'
       }
     ]
   }
