@@ -5,14 +5,14 @@ import Loading from '@/components/Loading'
 const loadWrapper = loader =>
   ReactLoadable({ loader, loading: Loading, timeout: 5000 })
 
-const Ring = loadWrapper(() => import('@/modules/Ring'))
+const Torus = loadWrapper(() => import('@/modules/Torus'))
 
 const Loadable = path => {
   switch (path) {
-    case '/gl/ring':
-      return () => <Ring />
+    case '/gl/torus':
+      return () => <Torus />
     default:
-      return () => <Ring />
+      return () => <Torus />
   }
 }
 

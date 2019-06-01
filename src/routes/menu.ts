@@ -1,7 +1,7 @@
 export default [
   {
     path: '/',
-    redirect: '/gl/ring'
+    redirect: '/gl/torus'
   },
   {
     path: '/gl',
@@ -9,12 +9,12 @@ export default [
     title: 'shader',
     children: [
       {
-        path: '/gl/ring',
-        title: '指环'
+        path: '/gl/torus',
+        title: 'torus'
       },
       {
-        path: '/gl/ring1',
-        title: '指环'
+        path: '/gl/torus1',
+        title: 'torus'
       }
     ]
   }

@@ -3,13 +3,13 @@ import './index.less'
 import * as THREE from 'three'
 import ThreeBox from '@/components/ThreeBox'
 
-import vertexShader from '@/shaders/DemoPage/vertex.glsl'
-import fragmentShader from '@/shaders/DemoPage/fragment.glsl'
+import vertexShader from '@/shaders/torus/vertex.glsl'
+import fragmentShader from '@/shaders/torus/fragment.glsl'
 
 import cloud from '@/assets/textures/leva/cloud.png'
 import lavatile from '@/assets/textures/leva/lavatile.jpg'
 
-export default class Ring extends ThreeBox {
+export default class Torus extends ThreeBox {
   mesh: THREE.Mesh
   clock: THREE.Clock
   uniforms: any
