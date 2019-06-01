@@ -13,8 +13,8 @@ export default [
         title: 'torus'
       },
       {
-        path: '/gl/torus1',
-        title: 'torus'
+        path: '/gl/multipoint',
+        title: '多个点'
       }
     ]
   }

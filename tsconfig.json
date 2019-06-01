@@ -17,7 +17,7 @@
     "pretty": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "paths":{
+    "paths": {
       "@/*": ["src/*"],
       "@tests/*": ["tests/*"]
     }
