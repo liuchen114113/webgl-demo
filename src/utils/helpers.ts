@@ -33,7 +33,7 @@ export const underscoreJson = switchCase(underscoreCase)
 export const removeBase64Prefix = str => str.replace(/.*base64,/, '')
 
 // 获取登录地址
-export const getHorizonLoginUrl = () => {
+export const getLoginUrl = () => {
   const { location } = window
   if (location.hostname.includes('localhost')) {
     // 本地开发
@@ -46,7 +46,7 @@ export const getHorizonLoginUrl = () => {
 }
 
 // 获取权限提醒地址
-export const getHorizonForbidUrl = tenantId => {
+export const getForbidUrl = tenantId => {
   const { location } = window
   if (location.hostname.includes('localhost')) {
     // 本地开发

@@ -2,7 +2,7 @@
   "name": "hobot-react-antd-ts-template",
   "version": "1.0.0",
   "description": "",
-  "author": "Horizon Robotics",
+  "author": " Robotics",
   "template": "hobot-react-antd-ts-template",
   "scripts": {
     "dev": "webpack-dev-server --config webpack/webpack.dev.config.js --mode development --color --progress --hot --open",
